@@ -4,9 +4,270 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <title>mySpecial Friend Survey</title>
 </head>
 <body>
-    Survey Page
+    <div class="container">
+
+        <div class="jumbotron">
+            <h1><span class="fa fa-edit"></span> Survey Questions</h1>
+        </div>
+        <hr>
+
+        <h3><strong>Let's Get to Know You</strong></h3>
+        <h4>Name (Required)</h4>
+        <input type="text" id="profileName" class="form-control" required>
+
+        <br>
+        <br>
+
+        <h4>Profile Photo Link (Required)</h4>
+        <input type="text" id="profilePhoto" class="form-control" required>
+
+        <hr>
+
+        <h3><strong>Q1:</strong> You are almost never late for your plans.</h3>
+        <select class="input" id="Q1">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <br>
+        <br>
+
+        <h3><strong>Q2:</strong> You like to be engaged, outdoors, and active.</h3>
+        <select class="input" id="Q2">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <br>
+        <br>
+
+
+        <h3><strong>Q3:</strong> You enjoy having a wide circle of acquaintances.</h3>
+        <select class="input" id="Q3">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <br>
+        <br>
+
+
+        <h3><strong>Q4:</strong> You enjoy a night, curled up on the couch, watching TV.</h3>
+        <select class="input" id="Q4">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <br>
+        <br>
+
+
+        <h3><strong>Q5:</strong> You feel that the world is founded on compassion.</h3>
+        <select class="input" id="Q5">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <br>
+        <br>
+
+
+        <h3><strong>Q6:</strong> It is difficult to get you excited.</h3>
+        <select class="input" id="Q6">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <br>
+        <br>
+
+
+        <h3><strong>Q7:</strong> When making a decision, you rely more on your feelings than on analysis of the situation.</h3>
+        <select class="input" id="Q7">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <br>
+        <br>
+
+        <h3><strong>Q8:</strong> You believe the best decision is one which can be easily changed.</h3>
+        <select class="input" id="Q8">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <br>
+        <br>
+
+        <h3><strong>Q9:</strong> You trust your reason rather than your feelings.</h3>
+        <select class="input" id="Q9">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <br>
+        <br>
+
+        <h3><strong>Q10:</strong> You are a person somewhat reserved and distant in communication.</h3>
+        <select class="input" id="Q10">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <br>
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-md-2">
+                <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><span class="fa fa-check-circle"></span> Submit</button>
+            </div>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5"></div>
+                    <div class="col-md-1">
+                        <a href="/api/friends"><h2><button class="btn btn-secondary btn-lg btn-block" data-toggle="tooltip" data-placement="left" title="API Friends List"><span class="fa fa-group"></span></button></h2></a>
+                    </div>
+                    <div class="col-md-1">
+                        <a href="/"><h2><button class="btn btn-secondary btn-lg btn-block" data-toggle="tooltip" data-placement="right" title="Return to Homepage"><span class="fa fa-home"></span></button></h2></a>
+                    </div>
+                    <div class="col-md-5"></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="modal fade" id="result" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle"><strong>You've Been Matched!</strong></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h2><span class="fa fa-heart"></span> <span id="match-name"></span></h2>
+                    <img id="match-photo"/>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $("#submit").on("click", function(e) {
+            e.preventDefault();
+
+            function checkVals() {
+
+                var formComplete = true;
+                
+                $(".form-control").each(function() {
+                    if ($(this).val() === "") {
+                        formComplete = false;
+                    }
+                });
+
+                $(".input").each(function() {
+                    if ($(this).val() === "") {
+                        formComplete = false;
+                    }
+                });
+
+                return formComplete;
+            }
+
+        if (checkVals() === true) {
+
+            var userInput = {
+                name: $("#profileName").val(),
+                photo: $("#profilePhoto").val(),
+                scores: [$("#Q1").val(), $("#Q2").val(), $("#Q3").val(), $("#Q4").val(), $("#Q5").val(), $("#Q6").val(), $("#Q7").val(), $("#Q8").val(), $("#Q9").val(), $("#Q10").val()]
+            };
+
+            $.post("/api/friends", userInput, function(response) {
+
+                $("#match-name").text(response.name);
+                $("#match-photo").attr("src", response.photo);
+                $("#result").modal("toggle");
+
+                $("#profileName").val("");
+                $("#profilePhoto").val("");
+                $("#Q1").val("");
+                $("#Q2").val("");
+                $("#Q3").val("");
+                $("#Q4").val("");
+                $("#Q5").val("");
+                $("#Q6").val("");
+                $("#Q7").val("");
+                $("#Q8").val("");
+                $("#Q9").val("");
+                $("#Q10").val("");
+            });
+        }
+        else {
+            alert("You must complete all fields in the survey before you submit! Please try again.");
+        }
+    });
+    </script>
 </body>
 </html>
