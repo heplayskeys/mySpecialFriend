@@ -197,14 +197,22 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalCenterTitle"><strong>You've Been Matched!</strong></h5>
+                    <h4 class="modal-title" id="exampleModalCenterTitle"><strong>You've Been Matched!</strong></h4>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <h2><span class="fa fa-heart"></span> <span id="match-name"></span></h2>
-                    <img id="match-photo"/>
+                    <div class="row">
+                        <div class="col-md-12" style="text-align: center">
+                            <h1><span class="fa fa-heart" style="color: red"></span>  <span id="match-name"></span>  <span class="fa fa-heart" style="color: red"></span></h1>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="col-md-12" style="text-align: center">
+                            <img id="match-photo" height="400px"/>
+                        </div>
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -262,6 +270,8 @@
                 $("#Q8").val("");
                 $("#Q9").val("");
                 $("#Q10").val("");
+            }).then(function(data) {
+                console.log("Your match is " + data.name);
             });
         }
         else {
